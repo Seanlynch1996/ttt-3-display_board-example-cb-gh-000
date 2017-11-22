@@ -3,5 +3,5 @@ def display_board
   i = 0
   9.times {
     if (i mod 3) == 1
-      puts "#{{i}}"
+      puts "#{i}"
   }
